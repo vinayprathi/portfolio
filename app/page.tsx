@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* Center Image */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <Image src="/your-image.jpg" alt="Your Image" width={250} height={250} className="rounded-full shadow-lg" />
+        <Image src="/your-image.jpg" alt="Profile Picture" width={250} height={250} priority className="rounded-full shadow-lg" />
       </div>
 
       {/* Right Side - ML Engineer */}
